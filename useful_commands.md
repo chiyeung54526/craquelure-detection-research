@@ -44,4 +44,4 @@ watch -n 10 squeue -u $USER
 python infer1221cnn.py  --ckpt weights/model_20260112_0414.ckpt-1 --test_dir myinput/testImages --threshold 0.51
 
 # with random seed 3407
-python infer1221cnn.py  --ckpt weights/best_model_20260218_0847.ckpt-1 --test_dir myinput/testImages --threshold 0.8
+python infer1221cnn.py  --ckpt weights/model_20260207_1429.ckpt-1 --test_dir myinput/testImages --threshold 0.6
